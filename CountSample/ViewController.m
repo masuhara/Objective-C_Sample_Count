@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    //初期化
     number = 0;
     countLabel.text = [NSString stringWithFormat:@"%d", number];
 }
